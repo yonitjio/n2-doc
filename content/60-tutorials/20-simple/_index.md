@@ -82,7 +82,6 @@ You can either reuse the existing graph or create a new one by following the sam
 
 1. Configure the `StartNode` Parameters
    1. Open the input dialog for the **Parameters** field of the `StartNode`.
-   Open input dialog on the `Parameters` input of the `StartNode`.
    2. Paste the following content:
       ```python
       {
@@ -104,7 +103,7 @@ You can either reuse the existing graph or create a new one by following the sam
    >}}
 
 ## Explanation
-```mermaid
+```mermaid {align="center" zoom="true"}
 sequenceDiagram
     participant User as User
     participant Start as StartNode
@@ -117,8 +116,6 @@ sequenceDiagram
     Notify->>Notify: Evaluate Template start_params['my_message']
     Notify->>User: Display Message "Hello from StartNode!"
 ```
-## Explanation
-
 ### Workflows and Graphs in N2
 In N2, a *workflow* is represented as a *graph*. A graph is composed of nodes connected by directional links (edges) that define the execution flow. When a graph is run, execution starts from the `StartNode` and continues through each connected node in the order defined by the graph.
 

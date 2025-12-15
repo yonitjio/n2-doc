@@ -7,7 +7,7 @@ date = "2025-12-12T01:46:39.298Z"
 
 At the core of N2 is a simple but powerful concept: **every node is a process**. Each process can accept inputs and produce outputs, and when connected, nodes form a chain—or graph—of automation tasks.
 
-```mermaid {align="center"}
+```mermaid {align="center" zoom="true"}
 classDiagram
     class Graph {
     }
@@ -54,7 +54,7 @@ Edges define the **connections between nodes** and dictate the flow of data or c
 
 Graphs in N2 are executed by **traversing nodes and edges**, processing each node according to its type and configuration. Execution typically begins at a start node and proceeds along defined paths until all nodes have been processed or a termination condition is met.
 
-```mermaid {align="center"}
+```mermaid {align="center" zoom="true"}
 sequenceDiagram
     participant Graph
     participant StartNode
