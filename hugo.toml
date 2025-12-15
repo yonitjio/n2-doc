@@ -1,0 +1,72 @@
+baseURL = "https://yonitjio.github.io/n2-doc/"
+relativeURLs = false
+canonifyurls = false
+languageCode = 'en-us'
+title = ' '
+theme = 'hugo-theme-relearn'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/McShelby/hugo-theme-relearn'
+
+[params]
+  cleanDestinationDir = true
+  themeVariant = 'relearn-dark'
+  disableLandingPageButton = true
+  disableGeneratorVersion = true
+  disableAssetsBusting = true
+  disableInlineCopyToClipBoard = true
+  hideAuthorName = true
+  hideAuthorEmail = true
+  hideAuthorDate = true
+  collapsibleMenu = true
+  externalLinkTarget = '_blank'
+  mermaidInitialize = '{ "theme": "base",  "themeVariables": { "primaryColor": "#002b36", "primaryTextColor": "#93a1a1", "primaryBorderColor": "#93a1a1", "lineColor": "#93a1a1" } }'
+  [params.logo]
+    src = '/n2-doc/images/logo-white.png'
+  [linkEffects]
+    download = false
+    target = '_blank'
+  [markup]
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+        unsafe = true
+      [markup.goldmark.parser.attribute]
+        block = true
+      [markup.highlight]
+        noClasses = false
+  [[params.boxStyle]]
+    identifier = 'eval'
+    color = '#422b39ff'
+    icon = ' '
+    title = ' '
+  [[params.boxStyle]]
+    identifier = 'raw'
+    color = '#333557ff'
+    icon = ' '
+    title = ' '
+  [[params.boxStyle]]
+    identifier = 'patched'
+    color = '#412424ff'
+    icon = ' '
+    title = ' '
+  [[params.boxStyle]]
+    identifier = 'liteval'
+    color = '#0f3855ff'
+    icon = ' '
+    title = ' '
+  [[params.boxStyle]]
+    identifier = 'tmpl'
+    color = '#1d4b35ff'
+    icon = ' '
+    title = ' '
+  [[params.boxStyle]]
+    identifier = 'inherit'
+    color = '#053b37ff'
+    icon = ' '
+    title = ' '
+  [[params.boxStyle]]
+    identifier = 'wip'
+    color = '#1d4372'
+    icon = 'fa-spinner'
+    title = ' '

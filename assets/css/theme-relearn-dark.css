@@ -1,0 +1,270 @@
+:root {
+    --MAIN-font: "Quicksand";
+    --MAIN-TITLES-font: "Quicksand";
+    --MAIN-letter-spacing: 0.01rem;
+    --MAIN-BOLD-font-weight: 500;
+    --MAIN-font-weight: 400;
+    --CODE-font: "Fira Code";
+    /* relearn-dark */
+    --PRIMARY-color: #002b36;
+    /* brand primary color */
+    --PRIMARY-HOVER-color: #91ea03;
+    /* brand primary hover color */
+    --SECONDARY-color: #b58900;
+    /* brand secondary color */
+    --SECONDARY-HOVER-color: #ffbf00;
+    /* brand secondary hover color */
+    --ACCENT-color: #b58900;
+    /* brand accent color, used for search highlights */
+    --ACCENT-HOVER-color: #ffbf00;
+    /* brand accent hover color */
+    --MENU-HEADER-color: #e0e0e0;
+    /* color of menu header */
+    --MENU-HEADER-BG-color: #073642;
+    /* background color of menu header */
+    --MENU-SEARCH-color: #e0e0e0;
+    /* text and icon color of search box */
+    --MENU-SEARCH-BG-color: #073642;
+    /* background color of search box */
+    --MENU-SEARCH-BORDER-color: #586e75;
+    /* border color of search box */
+    --MENU-HOME-LINK-color: #839496;
+    /* home button color if configured */
+    --MENU-HOME-LINK-HOVER-color: #93a1a1;
+    /* hovered home button color if configured */
+    --MENU-SECTIONS-BG-color: #073642;
+    /* background of the menu; this is NOT just a color value but can be a complete CSS background definition including gradients, etc. */
+    --MENU-SECTIONS-ACTIVE-BG-color: #073642;
+    /* background color of the active menu section */
+    --MENU-SECTIONS-LINK-color: #bababa;
+    /* link color of menu topics */
+    --MENU-SECTIONS-LINK-HOVER-color: #ffffff;
+    /* hovered link color of menu topics */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #e0e0e0;
+    /* text color of the displayed menu topic */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #073642;
+    /* background color of the displayed menu topic */
+    --MENU-SECTION-SEPARATOR-color: #073642;
+    /* separator color between menus */
+    --MENU-VISITED-color: #839496;
+    /* icon color of visited menu topics if configured */
+    --TOPBAR-BG-color: #073642;
+    /* background color of topbar */
+    --MAIN-TOPBAR-BORDER-color: #073642;
+    /* border color between topbar and content */
+    --MAIN-BG-color: #002b36;
+    /* background color of content */
+    --MAIN-TEXT-color: #93a1a1;
+    /* text color of content and titles */
+    --MAIN-TITLES-TEXT-color: #93a1a1;
+    /* text color of titles and transparent box titles */
+    --CODE-theme: solarized-dark;
+    /* name of the chroma stylesheet file */
+    --CODE-BLOCK-color: #f8f8f2;
+    /* fallback text color of block code; should be adjusted to your selected chroma style */
+    --CODE-BLOCK-BG-color: #073642;
+    /* fallback background color of block code; should be adjusted to your selected chroma style */
+    --CODE-BLOCK-BORDER-color: #073642;
+    /* border color of block code */
+    --CODE-INLINE-color: #93a1a1;
+    /* text color of inline code */
+    --CODE-INLINE-BG-color: #042128;
+    /* background color of inline code */
+    --CODE-INLINE-BORDER-color: #073642;
+    /* border color of inline code */
+    --BROWSER-theme: dark;
+    /* name of the theme for browser scrollbars of the main section */
+    --MERMAID-theme: base;
+    /* name of the default Mermaid theme for this variant, can be overridden in hugo.toml */
+    --OPENAPI-theme: dark;
+    /* name of the default OpenAPI theme for this variant, can be overridden in hugo.toml */
+    --OPENAPI-CODE-theme: obsidian;
+    /* name of the default OpenAPI code theme for this variant, can be overridden in hugo.toml */
+    --BOX-CAPTION-color: #f0f0f0;
+    /* text color of colored box titles */
+    --BOX-BG-color: #002b36;
+    /* background color of colored boxes */
+    --BOX-TEXT-color: #e0e0e0;
+    /* text color of colored box content */
+}
+
+.toast {
+    background-color: var(--MAIN-TEXT-color);
+    color: var(--MAIN-BG-color);
+}
+
+.autocomplete-suggestions {
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: #002b36;
+}
+
+.autocomplete-suggestion {
+    color: #bababa;
+}
+
+.autocomplete-suggestion b {
+    color: #1f8dd6;
+}
+
+.autocomplete-suggestion.selected {
+    color: #ffffff;
+}
+
+.autocomplete-suggestion:hover,
+.autocomplete-suggestion:focus,
+.autocomplete-suggestion:active,
+.autocomplete-suggestion:hover>.context,
+.autocomplete-suggestion:focus>.context,
+.autocomplete-suggestion:active>.context,
+#R-searchresults .autocomplete-suggestion:hover>.context,
+#R-searchresults .autocomplete-suggestion:focus>.context,
+#R-searchresults .autocomplete-suggestion:active>.context {
+    background: #073642;
+    color: #ffffff;
+}
+
+.align-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left !important;
+    justify-self: flex-start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mermaid-container {
+    margin: 0px;
+}
+
+.cstyle.box.tip {
+    --VARIABLE-BOX-color: #004d18;
+    --VARIABLE-BOX-TEXT-color: #93a1a1;
+    --VARIABLE-BOX-CAPTION-color: #bababa;
+    --VARIABLE-BOX-BG-color: #002b36;
+
+    border-radius: 5px;
+}
+
+.cstyle.box.note {
+    --VARIABLE-BOX-color: #584600;
+    --VARIABLE-BOX-TEXT-color: #93a1a1;
+    --VARIABLE-BOX-CAPTION-color: #bababa;
+    --VARIABLE-BOX-BG-color: #002b36;
+
+    border-radius: 5px;
+}
+
+.cstyle.box.info {
+    --VARIABLE-BOX-color: #1d4372;
+    --VARIABLE-BOX-TEXT-color: #93a1a1;
+    --VARIABLE-BOX-CAPTION-color: #bababa;
+    --VARIABLE-BOX-BG-color: #002b36;
+
+    border-radius: 5px;
+}
+
+.cstyle.box>.box-content {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.list-tree {
+    background-color: #042128;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+code {
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem !important;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.highlight>pre>code {
+    padding: 0px !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
+}
+
+.highlight>pre {
+    border-radius: 5px;
+    background-color: #042128 !important;
+}
+
+.badge>* {
+    border-color: #839496;
+    color: #839496;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.175rem;
+}
+
+h4 {
+    font-size: 1.15rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+#R-sidebar,
+#R-sidebar.ul.collapsible-menu {
+    line-height: 1.2rem;
+}
+
+#R-sidebar ul.enlarge>li> :is(a, span) {
+    line-height: 1.2rem;
+}
+
+#R-sidebar ul.collapsible-menu.enlarge>li>label {
+    line-height: 1rem;
+}
+
+#R-sidebar ul.enlarge > li > ul > li:last-child {
+    padding-bottom: 0rem;
+}
+
+#R-sidebar .R-sidebarmenu > ul {
+    margin-top: 0rem;
+}
+
+.chroma .line {
+    line-height: 1.3rem;
+}
+
+.card-container .card-image img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.card-container .card.card-popout:hover {
+    border-color: #ffc800;
+    box-shadow: none;
+    transform: none;
+}
+
+.card-container .card::before {
+    background: none;
+}
+
+.card {
+    border-color: #586e75;
+}
+

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Quicksand";
+    font-optical-sizing: auto;
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/quicksand/Quicksand.woff2") format('woff2-variations');
+}
+
+@font-face {
+    font-family: "Fira Code";
+    font-optical-sizing: auto;
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/firacode/FiraCode.woff2") format('woff2-variations');
+}
