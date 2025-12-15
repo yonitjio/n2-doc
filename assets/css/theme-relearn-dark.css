@@ -178,7 +178,7 @@
 }
 
 code {
-    padding: 0.2rem 0.5rem 0.2rem 0.5rem !important;
+    padding: 0.075rem 0.5rem 0.09rem 0.5rem !important;
     border-radius: 3px;
     vertical-align: middle;
 }
@@ -204,19 +204,19 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 1.175rem;
+    font-size: 1.4rem;
 }
 
 h4 {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
 }
 
 h5 {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
 }
 
 h6 {

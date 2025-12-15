@@ -46,7 +46,7 @@ theme = 'hugo-theme-relearn'
     title = ' '
   [[params.boxStyle]]
     identifier = 'raw'
-    color = '#333557ff'
+    color = '#26285eff'
     icon = ' '
     title = ' '
   [[params.boxStyle]]
@@ -70,7 +70,21 @@ theme = 'hugo-theme-relearn'
     icon = ' '
     title = ' '
   [[params.boxStyle]]
+    identifier = 'dict'
+    color = '#38193aff'
+    icon = ' '
+    title = ' '
+  [[params.boxStyle]]
     identifier = 'wip'
     color = '#1d4372'
     icon = 'fa-spinner'
     title = ' '
+  [[params.boxStyle]]
+    identifier = 'save-button'
+    icon = 'far fa-floppy-disk'
+  [[params.boxStyle]]
+    identifier = 'process-button'
+    icon = 'fas fa-check'
+  [[params.boxStyle]]
+    identifier = 'run-button'
+    icon = 'fas fa-play'

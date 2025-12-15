@@ -62,49 +62,56 @@ With N2 installed, you’re ready to build your first graph.
 
     A new **N2** entry now appears in your Odoo main menu.
 
-    {{< figure
-    src="../images/getting_started/n2-menu.png"
-    alt="N2 menu item in Odoo"
-    caption="N2 menu location"
-    width="150"
-    >}}
+{{< figure
+src="./images/n2-menu.png"
+alt="N2 menu item in Odoo"
+caption="N2 menu location"
+width="150"
+>}}
 
-2. **Open the Graphs List**
+1. **Open the Graphs List**
 
     Click **N2** to open the list of available graphs.
     On a fresh installation, this list will be empty.
 
-{{< figure
-src="../images/getting_started/n2-list-view.png"
-alt="Empty N2 graphs list"
-caption="Graphs list view"
-width="100%"
->}}
+    {{< figure
+    src="./images/n2-list-view.png"
+    alt="Empty N2 graphs list"
+    caption="Graphs list view"
+    width="100%"
+    >}}
 
-3. **Launch the Designer**
+1. **Launch the Designer**
 
     Click the **Designer** button to open the N2 visual editor.
 
-{{< figure
-src="../images/getting_started/n2-designer.png"
-alt="Empty designer workspace"
-caption="Clean canvas ready for your first graph"
-width="100%"
->}}
+    {{< figure
+    src="./images/n2-designer.png"
+    alt="Empty designer workspace"
+    caption="Clean canvas ready for your first graph"
+    width="100%"
+    >}}
 
-4. **Add a Start Node**
+1. **Add a Start Node**
 
     1. In the left sidebar, type **`start`** in the search field.
     2. Drag **StartNode** onto the canvas.
 
+    {{< figure
+    src="./images/n2-search-node.png"
+    alt="Search node"
+    caption="Search node by typing on the search box"
+    width="100%"
+    >}}
+
     Every executable N2 graph must contain **exactly one** StartNode—it defines where the execution begins.
 
-5. **Save Your Graph**
+2. **Save Your Graph**
 
     Click **Save** on the toolbar, enter a name (e.g., *Hello World*), and confirm.
     Your new graph is now stored in Odoo.
 
-6. **Process & Run**
+3. **Process & Run**
 
     1. Click **Process** to validate and compile the graph.
     2. Click **Run** to execute it.

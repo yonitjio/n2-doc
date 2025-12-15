@@ -51,7 +51,7 @@ Repeat sub-processes with the same parameters, enabling parallel or repetitive o
 Indicate the beginning of a workflow, establishing a clear entry point for automation.
 
 **Parameters**
-- `parameters` {{% badge style="raw" %}}Raw{{% /badge %}}
+- `parameters` {{% badge style="dict" %}}Dict{{% /badge %}}
 ​
 ## ValueNode
 Set or pass values to be used by subsequent nodes, allowing dynamic data handling throughout the workflow.

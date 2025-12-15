@@ -35,3 +35,19 @@ This documentation uses visual badges to indicate how a node’s parameters are 
 - {{% badge style="tmpl" %}}Tmpl{{% /badge %}}: The parameter is treated as a template. It is first parsed and then evaluated, allowing interpolation of variables, expressions, or other dynamic content before being used.
 
 - {{% badge style="inherited" %}}Inherited{{% /badge %}}: The parameter is defined on the parent node and inherited by the node.
+
+- {{% badge style="dict" %}}Dict{{% /badge %}}: The parameter is treated as a raw dictionary value and is deserialized using `json` into a Python `dict` before use.
+
+## Documentation Status
+
+This documentation is an ongoing process and may be updated regularly as new features are added, existing nodes are enhanced, or workflows are improved. While the content provided here covers the basics and common use cases, some advanced features, edge cases, or specialized nodes may not yet be fully documented.
+
+We encourage readers to:
+- Follow updates and revisions to the documentation for the latest information.
+- Explore node-specific documentation for detailed parameter descriptions and examples.
+- Experiment within N2 to gain hands-on understanding, since some behaviors may only be fully clear through practical use.
+- **Provide feedback or suggestions**:
+  - For documentation-related discussions, open a discussion or submit an issue on the [N2 Documentation GitHub repository](https://github.com/yonitjio/n2-doc).
+  - For technical questions or workflow/node-related discussions, use the [Exploring Odoo GitHub repository](https://github.com/yonitjio/exploring-odoo).
+
+Your input helps improve the clarity, completeness, and usefulness of this documentation for all users.
