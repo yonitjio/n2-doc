@@ -8,15 +8,15 @@
     /* relearn-dark */
     --PRIMARY-color: #002b36;
     /* brand primary color */
-    --PRIMARY-HOVER-color: #91ea03;
+    --PRIMARY-HOVER-color: #0084a5;
     /* brand primary hover color */
     --SECONDARY-color: #b58900;
     /* brand secondary color */
     --SECONDARY-HOVER-color: #ffbf00;
     /* brand secondary hover color */
-    --ACCENT-color: #b58900;
+    --ACCENT-color: #31b5aa;
     /* brand accent color, used for search highlights */
-    --ACCENT-HOVER-color: #ffbf00;
+    --ACCENT-HOVER-color: #3bdccf;
     /* brand accent hover color */
     --MENU-HEADER-color: #e0e0e0;
     /* color of menu header */
@@ -166,6 +166,15 @@
     border-radius: 5px;
 }
 
+.cstyle.box.warning {
+    --VARIABLE-BOX-color: #713131;
+    --VARIABLE-BOX-TEXT-color: #93a1a1;
+    --VARIABLE-BOX-CAPTION-color: #bababa;
+    --VARIABLE-BOX-BG-color: #002b36;
+
+    border-radius: 5px;
+}
+
 .cstyle.box>.box-content {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -242,6 +251,10 @@ h6 {
 
 #R-sidebar .R-sidebarmenu > ul {
     margin-top: 0rem;
+}
+
+#R-sidebar .autocomplete-suggestion {
+    color: #93a1a1;
 }
 
 .chroma .line {

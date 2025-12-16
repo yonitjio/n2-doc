@@ -8,11 +8,13 @@ date = "2025-12-12T01:46:39.298Z"
 
 ## Prerequisites
 - The N2 Core modules, N2 Data module and the N2 Messaging module must be installed.
-- Complete the [Simple Workflow](../20-simple) tutorial.
-- Contact module is installed.
 
-If you have not installed the N2 modules yet, please refer to the [Quick Start](/n2-doc/20-getting-started) guide.
-Please refer to the [Simple Workflow](../20-simple) tutorial on how to create a simple workflow, this tutorial uses the steps explained there.
+    If you have not installed the N2 modules yet, please refer to the [Quick Start](/n2-doc/20-getting-started) guide.
+- Complete the [Simple Workflow](../20-simple) tutorial.
+
+    Please refer to the [Simple Workflow](../20-simple) tutorial on how to create a simple workflow, this tutorial uses the steps explained there.
+
+- Contact module is installed.
 
 ## Retrieving Data
 In this section, you will create a simple workflow to retrieve **Contact** records from the database. Similar with the [Simple Workflow](../20-simple) tutorial, we will display a message to the user using `NotifyNode` as a visual cue to indicate that the workflow is working correctly.

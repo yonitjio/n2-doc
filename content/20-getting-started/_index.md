@@ -108,13 +108,13 @@ width="150"
 
 2. **Save Your Graph**
 
-    Click **Save** on the toolbar, enter a name (e.g., *Hello World*), and confirm.
+    Click `{{% icon style="save-button" %}} Save` button on the toolbar, enter a name (e.g., *Hello World*), and confirm.
     Your new graph is now stored in Odoo.
 
 3. **Process & Run**
 
-    1. Click **Process** to validate and compile the graph.
-    2. Click **Run** to execute it.
+    1. Click `{{% icon style="process-button" %}} Process` button to validate and compile the graph.
+    2. Click `{{% icon style="run-button" %}} Run` button to execute it.
 
     A graph with only a StartNode will complete instantly—but you’ve now verified that everything is working.
 

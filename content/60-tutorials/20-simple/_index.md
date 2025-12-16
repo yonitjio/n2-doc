@@ -9,7 +9,7 @@ date = "2025-12-12T01:46:39.298Z"
 ## Prerequisites
 - The N2 Core modules and the N2 Messaging module must be installed.
 
-If you have not installed the N2 modules yet, please refer to the [Quick Start](/n2-doc/20-getting-started) guide.
+   If you have not installed the N2 modules yet, please refer to the [Quick Start](/n2-doc/20-getting-started) guide.
 
 ## Displaying Static Message with `NotifyNode`
 In this section, you will create a simple workflow that displays a static message using a `NotifyNode`. This exercise introduces the basic concepts of building workflows in N2.

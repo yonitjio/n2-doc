@@ -245,5 +245,5 @@ Process monitoring is disabled by default. To enable it, update the Odoo system 
 3. Save the changes.
 
 Once enabled, all workflow executions will display node-level processing states using the visual indicators described above.
-> [!NOTE]
+> [!WARNING]
 > Enabling process monitoring introduces overhead during execution and is primarily recommended for development, testing, and debugging environments rather than regular use.
