@@ -65,7 +65,7 @@ With N2 installed, you’re ready to build your first graph.
 {{< figure
 src="./images/n2-menu.png"
 alt="N2 menu item in Odoo"
-caption="N2 menu location"
+caption="N2 Menu Location"
 width="150"
 >}}
 
@@ -77,7 +77,7 @@ width="150"
     {{< figure
     src="./images/n2-list-view.png"
     alt="Empty N2 graphs list"
-    caption="Graphs list view"
+    caption="Graphs List View"
     width="100%"
     >}}
 
@@ -88,7 +88,7 @@ width="150"
     {{< figure
     src="./images/n2-designer.png"
     alt="Empty designer workspace"
-    caption="Clean canvas ready for your first graph"
+    caption="Clean Canvas Ready for Your First Graph"
     width="100%"
     >}}
 
@@ -100,7 +100,7 @@ width="150"
     {{< figure
     src="./images/n2-search-node.png"
     alt="Search node"
-    caption="Search node by typing on the search box"
+    caption="Search Node by Typing on The Search Box"
     width="100%"
     >}}
 

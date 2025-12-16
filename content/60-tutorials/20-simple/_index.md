@@ -19,7 +19,7 @@ In this section, you will create a simple workflow that displays a static messag
    {{< figure
    src="./images/n2-menu.png"
    alt="N2 menu item in Odoo"
-   caption="N2 menu location"
+   caption="N2 Menu Location"
    width="150"
    >}}
 
@@ -27,7 +27,7 @@ In this section, you will create a simple workflow that displays a static messag
    {{< figure
    src="./images/n2-list-view.png"
    alt="Empty N2 graphs list"
-   caption="Graphs list view"
+   caption="Graphs List View"
    width="100%"
    >}}
 
@@ -37,7 +37,7 @@ In this section, you will create a simple workflow that displays a static messag
    {{< figure
    src="./images/n2-search-node.png"
    alt="Search node"
-   caption="Search node by typing on the search box"
+   caption="Search Node by Typing on The Search Box"
    width="100%"
    >}}
 3. Add a `NotifyNode` and Connect the Nodes
@@ -49,7 +49,7 @@ In this section, you will create a simple workflow that displays a static messag
    {{< figure
    src="./images/n2-start-notify.png"
    alt="Start Node -> Notify Node"
-   caption="`StartNode` connected to the `NotifyNode`"
+   caption="`StartNode` Connected to The `NotifyNode`"
    width="100%"
    >}}
 4. Configure the `NotifyNode`
@@ -61,8 +61,8 @@ In this section, you will create a simple workflow that displays a static messag
    3. Click **Apply** to save the value.
       {{< figure
       src="./images/n2-hello-world-input.png"
-      alt="Start Node -> Notify Node"
-      caption="`StartNode` connected to the `NotifyNode`"
+      alt="Template Parameter Input Dialog"
+      caption="Template Parameter Input Dialog"
       width="100%"
       >}}
 
@@ -73,7 +73,7 @@ In this section, you will create a simple workflow that displays a static messag
       {{< figure
       src="./images/n2-hello-world-run.png"
       alt="Hello World!"
-      caption="Simple workflow with `NotifyNode` to display static message"
+      caption="Simple Workflow with `NotifyNode` to Display Static Message"
       width="100%"
       >}}
 
@@ -98,7 +98,7 @@ You can either reuse the existing graph or create a new one by following the sam
    {{< figure
    src="./images/n2-hello-from-startnode.png"
    alt="Hello from StartNode!"
-   caption="Simple workflow with dynamic message"
+   caption="Simple Workflow With Dynamic Message"
    width="100%"
    >}}
 
@@ -153,5 +153,5 @@ This shows how a downstream node can render dynamic messages based on data provi
 
 Separating these steps ensures predictable behavior and helps catch configuration errors before runtime.
 
-### Extensibility and Next Steps
+### Next Steps
 While this tutorial demonstrates a minimal workflow, the same principles apply to more complex graphs. By combining multiple nodes and passing data through both **parameters** and **connections**, you can build sophisticated, data-driven workflows. Always refer to individual node documentation for details on available parameters, outputs, and supported template variables.

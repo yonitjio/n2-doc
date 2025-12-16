@@ -1,7 +1,7 @@
 +++
-title = "AI Chat"
-weight= 70
-description = "Learn how to use the N2 workflow to set up and run your first AI chat pipeline step by step."
+title = "AI Integration"
+weight= 50
+description = "Learn how to integrate AI into your workflow and use it to automate tasks and enhance productivity."
 images = ["images/logo-gray.png"]
 date = "2025-12-12T01:46:39.298Z"
 +++

@@ -31,14 +31,14 @@ In this section, you will create a simple workflow which is triggered when a new
    {{< figure
    src="./images/n2-workflow-with-trigger.png"
    alt="Simple workflow with trigger node"
-   caption="Simple workflow with trigger node"
+   caption="Simple Workflow with Trigger Node"
    width="100%"
    >}}
 6. Create a new **Contact**, a notification containing the new contact's name should be displayed when you save the new contact.
    {{< figure
    src="./images/n2-trigger-new-contact.png"
    alt="A message on new contact"
-   caption="A message is displayed when saving new contact"
+   caption="A Message is Displayed when Saving New Contact"
    width="100%"
    >}}
 
@@ -75,5 +75,11 @@ There are generally two types of triggers:
 ### Differences from Manual Workflows
 Unlike the manual workflows in the Simple Workflow tutorial (started via the StartNode), trigger-based workflows supplement the StartNode with a trigger node as the entry point. The trigger detects events and automatically starts execution, passing relevant data (like `active_record`) into the context for downstream nodes.
 
-### Extensibility and Next Steps
+### Port Spec
+In N2, a port may have a **spec**, which defines a constraint on port connectivity, allowing it to connect only to other ports with the same **spec**. Visually, a port’s shape represents its **spec**, indicating that only ports with matching shapes can be connected.
+
+In the case of trigger nodes, they expose an output port with a dedicated **spec**, which can connect only to the input port of the `StartNode`.
+
+
+### Next Steps
 This example demonstrates a basic event-driven workflow. By combining different trigger nodes with additional action nodes, you can automate complex processes like sending emails, updating records, or integrating with external systems. Refer to the documentation for specific trigger nodes to explore available events and context variables.
