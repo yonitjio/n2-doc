@@ -7,7 +7,7 @@ date = "2025-12-12T01:46:39.298Z"
 +++
 
 ## Prerequisites
-- The N2 Core modules, N2 Trigger modules and the N2 Messaging module must be installed.
+- The N2 Core modules, N2 Trigger module and the N2 Messaging module must be installed.
 - Complete the [Simple Workflow](../20-simple) tutorial.
 - Contact module is installed.
 

@@ -223,3 +223,27 @@ Creating a node requires both client-side and server-side implementation.
         return my_node.MyNode(environment, create_function_registry, definitions, definition)
     ```
 This completes the lifecycle of a node—from visual definition, to registry binding, to executable backend behavior—fully aligned with the N2 framework architecture.
+
+## Process Monitoring
+N2 provides a **process monitoring** feature designed to assist developers and users during workflow creation, execution, and debugging. When enabled, this feature offers real-time visual feedback directly on the workflow canvas, making it easier to understand the execution state of each node and quickly identify issues.
+
+### Visual Indicators
+As a workflow runs, each node is highlighted with a colored border that reflects its current status:
+- **Yellow border** – The node is actively processing. This indicates that execution has reached this node and its logic is currently running.
+- **Green border** – The node has completed its execution successfully. All associated operations finished without errors.
+- **Red border** – The node encountered an error during execution. This helps pinpoint exactly where the workflow failed and simplifies troubleshooting.
+
+These visual cues update dynamically as the workflow progresses, providing immediate insight into execution flow and node behavior.
+
+### Enabling Process Monitoring
+Process monitoring is disabled by default. To enable it, update the Odoo system parameters as follows:
+
+1. Go to **Settings → Technical → System Parameters**.
+2. Update the parameter:
+   - **Key:** `n2.monitor_process`
+   - **Value:** `True`
+3. Save the changes.
+
+Once enabled, all workflow executions will display node-level processing states using the visual indicators described above.
+> [!NOTE]
+> Enabling process monitoring introduces overhead during execution and is primarily recommended for development, testing, and debugging environments rather than regular use.

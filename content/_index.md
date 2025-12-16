@@ -3,6 +3,7 @@ title = "N2 Documentation"
 type = "home"
 description = "N2 Documentation Home"
 date = "2025-12-12T01:46:39.298Z"
+keywords = [ "n2", "nuido", "visual automation", "documentation" ]
 +++
 
 **N2 is the next evolution of the Nuido ecosystem, designed to bring a unified and streamlined approach to visual automation in Odoo.**
