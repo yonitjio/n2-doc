@@ -9,11 +9,11 @@ date = "2025-12-12T01:46:39.298Z"
 ## Prerequisites
 - The N2 Core modules, N2 AI module and the N2 Messaging module must be installed.
 
-    If you have not installed the N2 modules yet, please refer to the [Quick Start](/n2-doc/20-getting-started) guide.
+  If you have not installed the N2 modules yet, please refer to the [Quick Start](/n2-doc/20-getting-started) guide.
 
 - Complete the [Simple Workflow](../20-simple) tutorial.
 
-    Please refer to the [Simple Workflow](../20-simple) tutorial on how to create a simple workflow, this tutorial uses the steps explained there.
+  Please refer to the [Simple Workflow](../20-simple) tutorial to understand the basics for creating N2 workflow.
 
 - This tutorial uses [LM Studio](https://lmstudio.ai/) for the AI backend
 
@@ -28,8 +28,8 @@ AI models must be registered before using N2 AI module:
 5. Enter description or you can just copy the model name to the **Description** field.
   {{< figure
   src="./images/n2-ai-model.png"
-  alt="AI Model"
-  caption="AI Model Registration"
+  alt="AI Model Registration."
+  caption="AI Model Registration."
   width="100%"
   >}}
 
@@ -56,8 +56,8 @@ In this section, you will create a simple workflow with AI nodes to generate a s
 7. Save, process and run the graph. A notification showing the AI response should be displayed.
   {{< figure
   src="./images/n2-ai-notification.png"
-  alt="Ai Response"
-  caption="Ai Response"
+  alt="Ai Response."
+  caption="Ai Response."
   width="100%"
   >}}
 

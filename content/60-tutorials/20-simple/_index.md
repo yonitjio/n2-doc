@@ -18,16 +18,16 @@ In this section, you will create a simple workflow that displays a static messag
    1. From the Odoo main menu, click **N2**.
    {{< figure
    src="./images/n2-menu.png"
-   alt="N2 menu item in Odoo"
-   caption="N2 Menu Location"
+   alt="N2 menu item in Odoo."
+   caption="N2 menu location."
    width="150"
    >}}
 
    2. In the list view, click the **Designer** button in the top-left corner.
    {{< figure
    src="./images/n2-list-view.png"
-   alt="Empty N2 graphs list"
-   caption="Graphs List View"
+   alt="Empty N2 graphs list."
+   caption="Graphs list view."
    width="100%"
    >}}
 
@@ -36,8 +36,8 @@ In this section, you will create a simple workflow that displays a static messag
    2. You can scroll through the node list or use the search box to find it quickly.
    {{< figure
    src="./images/n2-search-node.png"
-   alt="Search node"
-   caption="Search Node by Typing on The Search Box"
+   alt="Search node."
+   caption="Search node by typing on the search box."
    width="100%"
    >}}
 3. Add a `NotifyNode` and Connect the Nodes
@@ -48,8 +48,8 @@ In this section, you will create a simple workflow that displays a static messag
 
    {{< figure
    src="./images/n2-start-notify.png"
-   alt="Start Node -> Notify Node"
-   caption="`StartNode` Connected to The `NotifyNode`"
+   alt="Start Node -> Notify Node."
+   caption="`StartNode` connected to the `NotifyNode`."
    width="100%"
    >}}
 4. Configure the `NotifyNode`
@@ -61,8 +61,8 @@ In this section, you will create a simple workflow that displays a static messag
    3. Click **Apply** to save the value.
       {{< figure
       src="./images/n2-hello-world-input.png"
-      alt="Template Parameter Input Dialog"
-      caption="Template Parameter Input Dialog"
+      alt="Template parameter input dialog."
+      caption="Template parameter input dialog."
       width="100%"
       >}}
 
@@ -73,7 +73,7 @@ In this section, you will create a simple workflow that displays a static messag
       {{< figure
       src="./images/n2-hello-world-run.png"
       alt="Hello World!"
-      caption="Simple Workflow with `NotifyNode` to Display Static Message"
+      caption="Simple workflow with `NotifyNode` to display static message."
       width="100%"
       >}}
 
@@ -98,7 +98,7 @@ You can either reuse the existing graph or create a new one by following the sam
    {{< figure
    src="./images/n2-hello-from-startnode.png"
    alt="Hello from StartNode!"
-   caption="Simple Workflow With Dynamic Message"
+   caption="Simple workflow with dynamic message."
    width="100%"
    >}}
 

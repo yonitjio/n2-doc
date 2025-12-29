@@ -13,7 +13,7 @@ date = "2025-12-12T01:46:39.298Z"
 
 - Complete the [Simple Workflow](../20-simple) tutorial.
 
-  Please refer to the [Simple Workflow](../20-simple) tutorial on how to create a simple workflow, this tutorial uses the steps explained there.
+  Please refer to the [Simple Workflow](../20-simple) tutorial to understand the basics for creating N2 workflow.
 
 - This tutorial uses [LM Studio](https://lmstudio.ai/) for the AI backend
 

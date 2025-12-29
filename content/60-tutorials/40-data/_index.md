@@ -9,10 +9,11 @@ date = "2025-12-12T01:46:39.298Z"
 ## Prerequisites
 - The N2 Core modules, N2 Data module and the N2 Messaging module must be installed.
 
-    If you have not installed the N2 modules yet, please refer to the [Quick Start](/n2-doc/20-getting-started) guide.
+  If you have not installed the N2 modules yet, please refer to the [Quick Start](/n2-doc/20-getting-started) guide.
+
 - Complete the [Simple Workflow](../20-simple) tutorial.
 
-    Please refer to the [Simple Workflow](../20-simple) tutorial on how to create a simple workflow, this tutorial uses the steps explained there.
+  Please refer to the [Simple Workflow](../20-simple) tutorial to understand the basics for creating N2 workflow.
 
 - Contact module is installed.
 
@@ -34,8 +35,8 @@ This workflow demonstrates how data nodes can be used to query records, extract 
 6. Save, process and run the graph. A notification should be displayed showing the name of the first contact in your database.
    {{< figure
    src="./images/n2-first-contact.png"
-   alt="A message displaying first contact name"
-   caption="A Message Displaying First Contact Name"
+   alt="A message displaying first contact name."
+   caption="A Message Displaying First Contact Name."
    width="100%"
    >}}
 
