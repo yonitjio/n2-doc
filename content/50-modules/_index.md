@@ -35,4 +35,10 @@ N2 is a modular automation platform composed of a set of core and optional modul
 - **`n2_ai_chat`**
   Enables building AI chat pipelines using N2’s graph-based workflows. It lets you define conversational logic, context handling, AI model calls, and responses as interconnected nodes, making chat systems visual, modular, and easy to integrate with other N2 modules.
 
+- **`n2_action`**
+  Provides additional controls for creating Odoo automation. It allows you to define triggers that respond to method calls and server actions, create reusable workflows, and customize the user interface by adding form view headers, buttons, and status bars.
+
+- **`n2_forecast`**
+  Provides N2 nodes for creating statistical forecasts in the N2 environment for Odoo by exposing StatsForecast models. It enables data-driven forecasting based on historical time-series data and can be integrated into N2 workflows.
+
 Together, these modules form a flexible ecosystem that allows N2 to scale from simple automations to complex, intelligent workflow systems.
