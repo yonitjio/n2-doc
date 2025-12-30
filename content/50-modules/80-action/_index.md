@@ -1,7 +1,7 @@
 +++
 title = "Action"
 weight = 80
-description = "N2 AI Action nodes"
+description = "N2 Action nodes"
 date = "2025-12-12T01:46:39.298Z"
 +++
 
