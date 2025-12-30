@@ -1,5 +1,5 @@
 +++
-title = "Forecast"
+title = "Statistical Forecast"
 weight = 90
 description = "N2 Forecast nodes"
 date = "2025-12-30T04:38:08.000Z"

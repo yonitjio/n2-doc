@@ -70,10 +70,10 @@ Responder->>User: Display AI reply
 
 This tutorial demonstrates how N2 can be used to enable AI chat in Odoo, allowing workflows to process user messages, generate AI responses, and send them back to the chat interface.
 
-## Responding to User Messages
+### Responding to User Messages
 Internally the `OnAiChatMessageNode` only mark the workflow as an AI chat pipeline and provide interface to test the pipeline by showing the chat dialog. N2 AI Chat module implement the communication between backend and frontend using standard Odoo controller to retrieve user messages and bus module to send AI responses.
 
-## Extending N2 AI Module
+### Extending N2 AI Module
 The N2 AI Chat module illustrates how existing nodes can be extended. In this case, the `AiAgentNode` is enhanced with support for streaming responses and maintaining conversation state.
 
 > [!WARNING]

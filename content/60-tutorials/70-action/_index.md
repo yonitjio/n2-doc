@@ -85,11 +85,11 @@ For these workflows, you will work on the Contact model, therefore all the `Mode
 ## Explanation
 This tutorial demonstrates how N2 can be used to customize Odoo behavior and customize form views.
 
-### Action Triggers in N2
+### Action and Method Triggers
 
-Action trigger nodes allow workflows to respond to server-side actions and model methods, enabling deep customization of Odoo behavior without modifying core code.
+Action trigger and method trigger nodes allow workflows to respond to server-side actions and model methods, enabling deep customization of Odoo behavior without modifying core code.
 
-## Advanced Workflows with N2 Action module
+### Advanced Workflows with N2 Action module
 The N2 Action module enables users to create more complex and advanced workflows by exposing server actions and model's method. Users can respond server action and models method using the `OnActionTriggerNode` and `OnMethodTriggerNode`.
 And as demonstrated earlier, users can also create custom header for form views. This is useful to create features such as multi-level approvals. Visit [Odoo Development Tutorial: N2 AI Nodes + Creating Multilevel Approval with N2.](https://youtu.be/C-uERrzGv_8) to watch how to create multi-level approval with N2 Action module.
 

@@ -82,18 +82,18 @@ sequenceDiagram
 
 This tutorial demonstrates how AI nodes can be used to generate text and pass the result to downstream nodes within a workflow.
 
-## Generating Prompts with `AiAgentNode`
+### Generating Prompts with `AiAgentNode`
 The `AiAgentNode` prepares the prompt that will be sent to the AI backend.
 It evaluates a template using values from the workflow context and produces a prompt string.
 
 In this example the prompt is built using the `my_message` parameter provided by the `StartNode`.
 
-## Sending Requests with `AiClientNode`
+### Sending Requests with `AiClientNode`
 The `AiClientNode` sends the prepared prompt to the configured AI model. It acts as the execution layer for AI requests and returns the model’s response.
 
 The response from the AI backend is exposed as the `result` parameter
 
-## Displaying Results with `NotifyNode`
+### Displaying Results with `NotifyNode`
 In this tutorial, the `NotifyNode` renders the AI-generated output using the `result` parameter produced by the `AiClientNode` and displays it as a notification.
 
 ## Next Steps

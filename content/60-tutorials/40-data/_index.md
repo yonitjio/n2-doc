@@ -60,15 +60,15 @@ Notify->>Notify: Evaluate template using contacts
 Notify->>User: Display notification with first contact name
 ```
 
-## Data Nodes
+### Data Nodes
 Data nodes allow workflows to retrieve and transform Odoo data and pass the results to downstream nodes as parameters.
 These parameters can then be accessed directly by subsequent nodes, such as `NotifyNode`, for rendering templates or performing actions.
 
-## Requesting Data with `BrowseDataNode`
+### Requesting Data with `BrowseDataNode`
 The `BrowseDataNode` retrieves records for a specified model and passes the resulting recordset to the next node.
 It serves as the entry point for data retrieval but does not modify the data itself.
 
-## Retrieving Data with `DataNode`
+### Retrieving Data with `DataNode`
 The DataNode extracts specific fields from incoming records and exposes the result as a named parameter, defined by the **Key**.
 
 In this example:
