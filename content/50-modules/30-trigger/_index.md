@@ -17,19 +17,19 @@ This module depends on the following modules *:
 ## OnCreateTriggerNode
 Triggers the workflow automatically whenever a new record is created in Odoo.
 
-**Parameters**
+### Parameters
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}} {{% badge style="patched" %}}Patched{{% /badge %}}
 
 ## OnDeleteTriggerNode
 Activates the workflow when an existing record is deleted.
 
-**Parameters**
+### Parameters
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}} {{% badge style="patched" %}}Patched{{% /badge %}}
 
 ## OnEditTriggerNode
 Fires the workflow whenever an existing record is updated or modified.
 
-**Parameters**
+### Parameters
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}} {{% badge style="patched" %}}Patched{{% /badge %}}
 - `selected_fields` {{% badge style="raw" %}}Raw{{% /badge %}}
 
@@ -38,14 +38,14 @@ On graph processing stage, the `selected_fields` is saved and used to find the r
 ## OnScheduleTriggerNode
 Executes the workflow on a defined schedule or time interval. This node is useful for recurring tasks such as automated reports, routine checks, or scheduled reminders.
 
-**Parameters**
+### Parameters
 - `interval` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `interval_type` {{% badge style="raw" %}}Raw{{% /badge %}}
 
 ## OnWebhookTriggerNode
 Initiates the workflow in response to an external webhook request. This allows seamless integration with third-party applications, enabling workflows to start when external events or API calls occur.
 
-**Parameters**
+### Parameters
 - `webhook_id` {{% badge style="raw" %}}Raw{{% /badge %}}
 
 The `webhook_id` is saved on graph processing stage. When a request is sent to N2 controller, `webhook_id` is used to validate the request.

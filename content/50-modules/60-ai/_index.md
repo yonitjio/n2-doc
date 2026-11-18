@@ -23,7 +23,7 @@ This module requires the following Python package:
 ## AiAgentNode
 This node represents an AI agent responsible for orchestrating reasoning, handling tool calls, interacting with context providers, and executing AI-driven tasks.
 
-**Parameters**
+### Parameters
 - `name` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `system_message` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `prompt` {{% badge style="tmpl" %}}Tmpl{{% /badge %}}
@@ -37,7 +37,7 @@ This node exposes calculator functionality as a Machine-Configurable Protocol (M
 ## AiClientNode
 This node is used to connect the AiAgentNode to your AI backend via the OpenAI Chat API.
 
-**Parameters**
+### Parameters
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `api_key` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `base_url` {{% badge style="raw" %}}Raw{{% /badge %}}
@@ -55,5 +55,5 @@ These tools allow the agent to incorporate real-time temporal data into its reas
 ## ManualContextProviderNode
 A context provider node that supplies manually defined contextual information to the AiAgentNode.
 
-**Parameters**
+### Parameters
 - `context` {{% badge style="tmpl" %}}Tmpl{{% /badge %}}

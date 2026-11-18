@@ -17,7 +17,7 @@ This module depends on the following modules *:
 ## AiAgentNode
 The AI Chat module extends the `AiAgentNode` to accomodate chat features: streaming chats and chat state management.
 
-**Parameters**
+### Parameters
 - `name` {{% badge style="raw" %}}Raw{{% /badge %}} {{% badge style="inherit" %}}Inherited{{% /badge %}}
 - `system_message` {{% badge style="raw" %}}Raw{{% /badge %}} {{% badge style="inherit" %}}Inherited{{% /badge %}}
 - `prompt` {{% badge style="tmpl" %}}Tmpl{{% /badge %}} {{% badge style="inherit" %}}Inherited{{% /badge %}}
@@ -33,7 +33,7 @@ This node is responsible to send responses from `AiAgentNode` to the frontend.
 ## ManualResponseNode
 Use this node to create manual or templated responses.
 
-**Parameters**
+### Parameters
 - `message` {{% badge style="tmpl" %}}Tmpl{{% /badge %}}
 
 ## OnAiChatMessageTriggerNode

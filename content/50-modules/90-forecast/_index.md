@@ -20,7 +20,7 @@ This module depends on the following modules *:
 ### ForecastDataNode
 `ForecastDataNode` is responsible for extracting time-series data from Odoo models and transforming it into a `DataFrame` format compatible with **StatsForecast** models.
 
-**Parameters**
+### Parameters
 - `key` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `order_by` {{% badge style="raw" %}}Raw{{% /badge %}}
@@ -29,14 +29,14 @@ This module depends on the following modules *:
 ### TrainNode
 `TrainNode` is used to train a forecasting model using prepared historical data and a selected forecast model node.
 
-**Parameters**
+### Parameters
 - `model_name` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `freq` {{% badge style="raw" %}}Raw{{% /badge %}}
 
 ### ForecastNode
 `ForecastNode` generates future predictions using a previously trained forecast model.
 
-**Parameters**
+### Parameters
 - `forecast_model_id` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `horizon` {{% badge style="raw" %}}Raw{{% /badge %}}
 
@@ -53,7 +53,7 @@ The `HistoricAverageNode` represents the Historic Average Model.
 ### ArimaNode
 The `ArimaNode` represent the ARIMA Model.
 
-**Parameters**
+### Parameters
 - `p` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `d` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `q` {{% badge style="raw" %}}Raw{{% /badge %}}
@@ -65,7 +65,7 @@ The `ArimaNode` represent the ARIMA Model.
 ### AutoArimaNode
 `AutoArimaNode` represents the AutoARIMA model, which automatically selects optimal ARIMA parameters.
 
-**Parameters**
+### Parameters
 - `d` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `D` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `season_length` {{% badge style="raw" %}}Raw{{% /badge %}}
@@ -75,7 +75,7 @@ The `ArimaNode` represent the ARIMA Model.
 ### AutoEtsNode
 `AutoEtsNode` represents the AutoETS (Error, Trend, Seasonality) model.
 
-**Parameters**
+### Parameters
 - `season_length` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `damped` {{% badge style="raw" %}}Raw{{% /badge %}}
@@ -84,7 +84,7 @@ The `ArimaNode` represent the ARIMA Model.
 ### AutoThetaNode
 `AutoThetaNode` represents the AutoTheta forecasting model.
 
-**Parameters**
+### Parameters
 - `season_length` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `decomposition_type` {{% badge style="raw" %}}Raw{{% /badge %}}
@@ -93,12 +93,12 @@ The `ArimaNode` represent the ARIMA Model.
 ### FillGapsNode
 Use `FillGapsNode` fills missing timestamps in irregular time series.
 
-**Parameters**
+### Parameters
 - `freq` {{% badge style="raw" %}}Raw{{% /badge %}}
 
 ### TimeAggregateNode
 Use `TimeAggregateNode` aggregates time-series data into a coarser frequency.
 
-**Parameters**
+### Parameters
 - `freq` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `method` {{% badge style="raw" %}}Raw{{% /badge %}}

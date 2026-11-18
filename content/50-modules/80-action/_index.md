@@ -19,7 +19,7 @@ This module depends on the following modules *:
 ## ActionNode
 Executes server action on one or more records of a model.
 
-**Parameters**
+### Parameters
 - `ids` {{% badge style="eval" %}}Eval{{% /badge %}}
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `record_ids` {{% badge style="raw" %}}Raw{{% /badge %}}
@@ -27,27 +27,27 @@ Executes server action on one or more records of a model.
 ## RunNode
 Runs another workflow graph from within the current workflow. Useful for modularizing automation by reusing existing graphs.
 
-**Parameters**
+### Parameters
 `record_id`  {{% badge style="raw" %}}Raw{{% /badge %}}
 
 ## OnActionTriggerNode
 Executes the workflow when a specific server action is called. This is used to extend standard Odoo actions with additional custom behavior.
 
-**Parameters**
+### Parameters
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `record_ids` {{% badge style="raw" %}}Raw{{% /badge %}}
 
 ## OnMethodTriggerNode
 Executes the workflow when a particular method on a model is called. This node allows automation to respond to business logic changes.
 
-**Parameters**
+### Parameters
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `method_name` {{% badge style="raw" %}}Raw{{% /badge %}}
 
 ## CodeServerActionStarterNode
 Creates a new server action that executes Python code. This node is used to programmatically define automation logic without creating a new Odoo module.
 
-**Parameters**
+### Parameters
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `name`  {{% badge style="raw" %}}Raw{{% /badge %}}
 - `code`  {{% badge style="raw" %}}Raw{{% /badge %}}
@@ -57,7 +57,7 @@ Creates a new server action that executes Python code. This node is used to prog
 ## ViewHeaderStarterNode
 Adds a custom header to a form view. This can include status bar or action buttons.
 
-**Parameters**
+### Parameters
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `view_id` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `group_ids` {{% badge style="raw" %}}Raw{{% /badge %}}
@@ -68,7 +68,7 @@ Adds a custom header to a form view. This can include status bar or action butto
 ## StatusBarStarterNode
 Adds a status bar to a form view header. This can display workflow status, progress, or other indicators relevant to the user.
 
-**Parameters**
+### Parameters
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `field_name` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `group_ids` {{% badge style="raw" %}}Raw{{% /badge %}}
@@ -78,7 +78,7 @@ Adds a status bar to a form view header. This can display workflow status, progr
 ## FormActionButtonStarterNode
 Adds a clickable action button to a form view header to trigger server actions.
 
-**Parameters**
+### Parameters
 - `model` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `action_id` {{% badge style="raw" %}}Raw{{% /badge %}}
 - `group_ids` {{% badge style="raw" %}}Raw{{% /badge %}}

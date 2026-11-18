@@ -21,12 +21,12 @@ This module requires the following Python package:
 ## MessageNode
 A node used to send messages directly to users through OdooBot.
 
-**Parameters**
+### Parameters
 - `template` {{% badge style="tmpl" %}}Tmpl{{% /badge %}}
 
 ## NotifyNode
 A node responsible for displaying sticky notifications to users.
 
-**Parameters**
+### Parameters
 - `template` {{% badge style="tmpl" %}}Tmpl{{% /badge %}}
 - `sticky` {{% badge style="raw" %}}Raw{{% /badge %}}

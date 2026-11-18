@@ -75,6 +75,16 @@ theme = 'hugo-theme-relearn'
     icon = ' '
     title = ' '
   [[params.boxStyle]]
+    identifier = 'sin'
+    color = '#08272eff'
+    icon = 'fas fa-arrow-right-to-bracket'
+    title = ' '
+  [[params.boxStyle]]
+    identifier = 'sout'
+    color = '#4a1914ff'
+    icon = 'fas fa-arrow-right-from-bracket'
+    title = ' '
+  [[params.boxStyle]]
     identifier = 'wip'
     color = '#1d4372'
     icon = 'fa-spinner'
