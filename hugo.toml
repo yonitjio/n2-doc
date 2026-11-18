@@ -1,7 +1,7 @@
 baseURL = "https://yonitjio.github.io/n2-doc/"
 relativeURLs = false
 canonifyurls = false
-languageCode = 'en-us'
+locale = 'en-us'
 title = ' '
 theme = 'hugo-theme-relearn'
 
