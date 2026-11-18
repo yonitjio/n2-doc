@@ -23,19 +23,16 @@ Follow these steps to install N2 and prepare your Odoo environment.
     Click the **⭐ Star** button (top-right).
     N2 uses this star to verify access—downloads remain locked until the repo is starred.
 
-3. **Sign in to N2**
+3. **Request for invitation**
 
-    Go to **https://nuido2.skysize.io** and click **“Continue with GitHub”.**
-    Once your GitHub account has starred the repo, N2 automatically unlocks full access to the modules.
+   Visit discussion page on **Exploring Odoo** repo and request invitation by commenting on this post: https://github.com/yonitjio/exploring-odoo/discussions/25
 
 4. **Download the N2 Modules**
 
-    Download both required N2 packages:
+    Required N2 packages:
 
     - **N2 Core Module**
-    https://nuido2.skysize.io/shop/n2-3
     - **N2 User Interface Module**
-    https://nuido2.skysize.io/shop/n2-user-interface-4
 
     > [!NOTE]
     > Both modules are required for N2 to function.
